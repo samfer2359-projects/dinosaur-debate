@@ -7,7 +7,7 @@ Instead of presenting dinosaurs as static museum exhibits, this project turns th
 ---
 
 ##  Live Demo
-(Add your deployed link here)
+https://dinosaur-debate.vercel.app/
 
 ---
 
