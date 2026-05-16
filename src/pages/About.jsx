@@ -129,9 +129,7 @@ function About() {
   </a>
 </div>
 
-        <p>
-          (You can also link your GitHub or LinkedIn here later)
-        </p>
+        
       </div>
 
       <div
