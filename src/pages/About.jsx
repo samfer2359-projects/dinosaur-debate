@@ -118,7 +118,7 @@ function About() {
         <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
   <MdEmail size={22} />
   <a
-    href="mailto:yourname@gmail.com?subject=Feedback%20on%20Dinosaur%20Project"
+    href="mailto:samantha.connect.tech@gmail.com?subject=Feedback%20on%20Dinosaur%20Project"
     style={{
       textDecoration: "none",
       color: "#2d2a26",
