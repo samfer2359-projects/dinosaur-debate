@@ -1,3 +1,4 @@
+import { MdEmail } from "react-icons/md"
 function About() {
   return (
     <div className="container">
@@ -114,9 +115,19 @@ function About() {
           feel free to reach out.
         </p>
 
-        <p>
-          📧 Email: yourname@gmail.com  
-        </p>
+        <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
+  <MdEmail size={22} />
+  <a
+    href="mailto:yourname@gmail.com?subject=Feedback%20on%20Dinosaur%20Project"
+    style={{
+      textDecoration: "none",
+      color: "#2d2a26",
+      fontWeight: "500"
+    }}
+  >
+    Send Email
+  </a>
+</div>
 
         <p>
           (You can also link your GitHub or LinkedIn here later)
