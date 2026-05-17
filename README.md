@@ -77,6 +77,7 @@ The content is based on:
 - Simplified scientific reasoning for learning purposes
 
 It is intended for exploration and learning, not formal research.
+This is an ongoing project and will continue evolving with additional features and improvements.
 
 ---
 
