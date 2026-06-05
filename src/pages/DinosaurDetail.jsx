@@ -208,6 +208,43 @@ function DinosaurDetail() {
                   ))}
                 </ul>
               )}
+
+              <div style={{ marginTop: "15px",
+                  width: "300px",
+                  padding: "10px 16px",
+                  borderRadius: "10px",
+                  border: "none",
+                  cursor: "pointer",
+                  background: "#c08457",
+                  color: "#fff" }}>
+  <h3>Investigate</h3>
+
+  <button
+    onClick={() =>
+      window.open(
+        `https://www.google.com/search?q=${encodeURIComponent(
+          selectedQuestion.research.google
+        )}`,
+        "_blank"
+      )
+    }
+  >
+    🔍 Google Research
+  </button>
+   &nbsp; &nbsp;
+  <button
+    onClick={() =>
+      window.open(
+        `https://www.youtube.com/results?search_query=${encodeURIComponent(
+          selectedQuestion.research.youtube
+        )}`,
+        "_blank"
+      )
+    }
+  >
+    ▶ YouTube Explainer
+  </button>
+</div>
             </>
           )}
 

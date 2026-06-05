@@ -20,7 +20,6 @@ const dinosaurs = [
             challenge:
               "If Tyrannosaurus hunted frequently, how do we explain arguments that its massive body may have limited pursuit speed?"
           },
-
           {
             text: "Mostly a scavenger",
             challenge:
@@ -38,7 +37,12 @@ const dinosaurs = [
           "Can fossils truly preserve behavior?",
           "Would modern ecosystems even separate hunting and scavenging so strictly?",
           "How much of prehistoric life is forever missing?"
-        ]
+        ],
+
+        research: {
+          google: "Tyrannosaurus rex hunter or scavenger debate",
+          youtube: "T rex hunter or scavenger explanation paleontology"
+        }
       },
 
       {
@@ -50,7 +54,6 @@ const dinosaurs = [
             challenge:
               "If it ran at high speed, could such enormous weight risk catastrophic injury?"
           },
-
           {
             text: "It was probably slower than often imagined",
             challenge:
@@ -67,7 +70,12 @@ const dinosaurs = [
         mysteries: [
           "Can movement truly be reconstructed from skeletons alone?",
           "Did younger individuals behave differently from adults?"
-        ]
+        ],
+
+        research: {
+          google: "how fast was T rex biomechanical speed estimate",
+          youtube: "T rex running speed debate science explained"
+        }
       }
     ]
   },
@@ -89,7 +97,6 @@ const dinosaurs = [
             challenge:
               "If Spinosaurus was highly aquatic, why do some studies question how efficiently it could actually swim?"
           },
-
           {
             text: "It may still have relied heavily on land",
             challenge:
@@ -107,7 +114,12 @@ const dinosaurs = [
           "How much behavior can anatomy truly reveal?",
           "Could different life stages have behaved differently?",
           "How much of Spinosaurus is still missing?"
-        ]
+        ],
+
+        research: {
+          google: "Spinosaurus aquatic dinosaur debate swimming ability",
+          youtube: "Spinosaurus swimming tail controversy science"
+        }
       },
 
       {
@@ -119,7 +131,6 @@ const dinosaurs = [
             challenge:
               "If new discoveries improve understanding, why do reconstructions still remain so unstable?"
           },
-
           {
             text: "Because too much evidence is incomplete",
             challenge:
@@ -136,7 +147,12 @@ const dinosaurs = [
         mysteries: [
           "How different would our understanding be if more fossils survived?",
           "How often is scientific confidence shaped by missing evidence?"
-        ]
+        ],
+
+        research: {
+          google: "why Spinosaurus reconstruction keeps changing fossils",
+          youtube: "Spinosaurus reconstruction history debate"
+        }
       }
     ]
   },
@@ -158,7 +174,6 @@ const dinosaurs = [
             challenge:
               "If these dinosaurs coordinated attacks, why is direct evidence for social behavior so difficult to confirm?"
           },
-
           {
             text: "The fossil groupings may be misleading",
             challenge:
@@ -175,7 +190,12 @@ const dinosaurs = [
         mysteries: [
           "Can social behavior fossilize?",
           "How much modern animal behavior should influence reconstructions?"
-        ]
+        ],
+
+        research: {
+          google: "Deinonychus pack hunting evidence debate",
+          youtube: "Did raptors hunt in packs Deinonychus science"
+        }
       },
 
       {
@@ -187,7 +207,6 @@ const dinosaurs = [
             challenge:
               "If birds are living dinosaurs, how many ancient behaviors still survive today?"
           },
-
           {
             text: "The evolutionary picture may still be incomplete",
             challenge:
@@ -204,7 +223,12 @@ const dinosaurs = [
         mysteries: [
           "What behaviors existed before flight evolved?",
           "How much ancient life survives in modern ecosystems?"
-        ]
+        ],
+
+        research: {
+          google: "dinosaurs evolution into birds evidence fossils",
+          youtube: "how dinosaurs became birds evolution explained"
+        }
       }
     ]
   }
