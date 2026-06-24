@@ -2,16 +2,25 @@ body {
   margin: 0;
   font-family: "Georgia", "Times New Roman", serif;
   color: #2d2a26;
+
   background: url("assets/dino_skell.jpg");
   background-size: cover;
+  background-position: center;
   background-attachment: fixed;
 }
 
-/* NAVBAR */
+/* =========================
+   NAVBAR
+========================= */
+
 .navbar {
   width: 95%;
+  max-width: 1200px;
+  margin: 0 auto;
+
   position: sticky;
   top: 0;
+  z-index: 1000;
 
   display: flex;
   justify-content: space-between;
@@ -27,55 +36,67 @@ body {
   font-family: "Georgia", serif;
 }
 
-.logo {
-  font-size: 18px;
-  font-weight: bold;
-  letter-spacing: 0.5px;
+/* NAV LINKS */
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
 }
 
 .nav-links a {
-  margin-left: 18px;
   text-decoration: none;
   color: #2d2a26;
   font-weight: 500;
+  font-size: 14px;
 }
 
 .nav-links a:hover {
   color: #c08457;
 }
 
-/* PAGE WRAPPER */
+/* =========================
+   PAGE WRAPPER
+========================= */
+
 .container {
   width: 100%;
   max-width: 1100px;
 
-  /* NEW: true centering feel */
   margin: 40px auto;
 
   padding: 24px;
+
   background: rgba(253, 246, 236, 0.92);
   border-radius: 16px;
 
-  text-align: center; /* NEW */
+  text-align: center;
 }
 
-/* GRID */
+/* =========================
+   GRID
+========================= */
+
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  gap: 28px;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 24px;
   margin-top: 20px;
 }
 
-/* CARD */
+/* =========================
+   CARD
+========================= */
+
 .card {
   background: rgba(255, 255, 255, 0.75);
   border: 1px solid rgba(0, 0, 0, 0.08);
+
   border-radius: 16px;
   overflow: hidden;
+
   transition: 0.25s ease;
-  backdrop-filter: blur(8px);
-  text-align: left; /* IMPORTANT: keeps text readable */
+
+  text-align: left;
 }
 
 .card:hover {
@@ -89,7 +110,10 @@ body {
   object-fit: cover;
 }
 
-/* TEXT */
+/* =========================
+   TEXT
+========================= */
+
 h1 {
   font-size: 32px;
   margin-bottom: 20px;
@@ -98,10 +122,6 @@ h1 {
 h2 {
   margin: 0;
 }
-
-
-
-
 
 .subtitle {
   font-size: 18px;
@@ -116,14 +136,21 @@ h2 {
   margin-bottom: 20px;
 }
 
+/* =========================
+   BUTTON
+========================= */
+
 .cta {
   padding: 12px 20px;
   border: none;
   background: #c08457;
   color: white;
+
   border-radius: 10px;
   cursor: pointer;
+
   font-size: 15px;
+
   transition: 0.2s ease;
 }
 
@@ -132,16 +159,23 @@ h2 {
   transform: translateY(-2px);
 }
 
+/* =========================
+   HOME
+========================= */
+
 .home-wrapper {
-  height: 85vh;
+  min-height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
+
+  padding: 20px;
 }
 
-/* THIS is your museum box */
 .home-box {
+  width: 100%;
   max-width: 700px;
+
   padding: 40px;
 
   background: rgba(253, 246, 236, 0.92);
@@ -153,4 +187,45 @@ h2 {
   backdrop-filter: blur(10px);
 
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+}
+
+/* =========================
+   MOBILE FIXES
+========================= */
+
+@media (max-width: 768px) {
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 14px 18px;
+    gap: 10px;
+  }
+
+  .nav-links {
+    width: 100%;
+    justify-content: flex-start;
+  }
+
+  .container {
+    padding: 16px;
+    margin: 20px auto;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .card img {
+    height: 140px;
+  }
+
+  h1 {
+    font-size: 26px;
+  }
+
+  .home-box {
+    padding: 18px;
+  }
 }
