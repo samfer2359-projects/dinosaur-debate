@@ -1,0 +1,210 @@
+
+
+.scene {
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+
+.museum-hall {
+  background: #000;
+  color: white;
+
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.museum-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.fossil-grid {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fossil {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 32px;
+  cursor: pointer;
+
+  background: radial-gradient(circle, #c08457, transparent 70%);
+  box-shadow: 0 0 25px #c08457;
+
+  transition: 0.3s ease;
+}
+
+.fossil:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 45px #c08457;
+}
+
+
+
+.debate-hall {
+  background: #f5efe6;
+  color: #2d2a26;
+
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 40px;
+}
+
+.debate-title {
+  margin-bottom: 40px;
+}
+
+
+.debate-grid {
+  width: 100%;
+  max-width: 1000px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+
+.scientist-side {
+  width: 45%;
+  text-align: center;
+}
+
+
+.emoji {
+  font-size: 70px;
+  margin-bottom: 10px;
+}
+
+
+.thought {
+  font-size: 14px;
+  opacity: 0.7;
+  margin-bottom: 10px;
+}
+
+
+.bubble {
+  background: white;
+  padding: 16px;
+  border-radius: 14px;
+
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.debate-controls {
+  margin-top: 40px;
+  display: flex;
+  gap: 20px;
+}
+
+
+.btn {
+  padding: 12px 18px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  transition: 0.2s ease;
+}
+
+
+.btn-next {
+  background: #2e7d32;
+  color: white;
+}
+
+.btn-next:hover {
+  background: #1b5e20;
+  transform: translateY(-2px);
+}
+
+
+.btn-exit {
+  background: #c62828;
+  color: white;
+}
+
+.btn-exit:hover {
+  background: #8e0000;
+  transform: translateY(-2px);
+}
+
+
+
+.maya-screen {
+  background: white;
+
+  min-height: 100vh;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+  padding: 40px;
+}
+
+
+.floating-questions {
+  font-size: 40px;
+  opacity: 0.6;
+
+  animation: floatQ 2.5s infinite ease-in-out;
+}
+
+@keyframes floatQ {
+  0% { transform: translateY(0px); opacity: 0.4; }
+  50% { transform: translateY(-10px); opacity: 0.8; }
+  100% { transform: translateY(0px); opacity: 0.4; }
+}
+
+
+.maya-avatar {
+  font-size: 80px;
+  margin-top: 20px;
+}
+
+
+.maya-text {
+  max-width: 600px;
+  margin-top: 20px;
+
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+
+.maya-list {
+  margin-top: 20px;
+  max-width: 500px;
+  text-align: left;
+}

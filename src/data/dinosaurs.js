@@ -4,234 +4,303 @@ import deinonychusImg from "../assets/deni.jpg"
 
 const dinosaurs = [
   {
-    id: "trex",
-    name: "Tyrannosaurus rex",
-    image: trexImg,
-    atmosphere:
-      "A predator reconstructed from fragments, bite marks, footprints, and assumptions that may never fully settle.",
+  id: "trex",
+  name: "Tyrannosaurus rex",
+  image: trexImg,
 
-    questions: [
-      {
-        question: "Was Tyrannosaurus rex mainly a hunter or a scavenger?",
+  atmosphere:
+    "We don’t have a complete T. rex skeleton. Most of what we know comes from places like Montana’s Hell Creek Formation — scattered bones, partial skulls, and a lot of educated reconstruction. It’s like trying to rebuild a movie from a few broken scenes.",
 
-        choices: [
-          {
-            text: "Mostly an active hunter",
-            challenge:
-              "If Tyrannosaurus hunted frequently, how do we explain arguments that its massive body may have limited pursuit speed?"
-          },
-          {
-            text: "Mostly a scavenger",
-            challenge:
-              "If Tyrannosaurus relied heavily on scavenging, why do some fossils appear to show evidence of violent attacks?"
-          }
-        ],
+  exhibits: [
+    {
+      id: "skull",
+      title: "The Skull",
 
-        hints: [
-          "Its bite force was powerful enough to crush bone.",
-          "Some fossil injuries on prey animals later healed.",
-          "Modern predators often both hunt and scavenge."
-        ],
+      description:
+        "This skull, found in formations like Hell Creek (USA), is one of the strongest bite systems ever discovered in land animals. The debate isn’t about power — it’s about behavior: hunting or scavenging?",
 
-        mysteries: [
-          "Can fossils truly preserve behavior?",
-          "Would modern ecosystems even separate hunting and scavenging so strictly?",
-          "How much of prehistoric life is forever missing?"
-        ],
+      scientists: {
+        a: {
+          name: "Dr. Eleanor Finch 🧠",
+          role: "Biomechanics researcher",
 
-        research: {
-          google: "Tyrannosaurus rex hunter or scavenger debate",
-          youtube: "T rex hunter or scavenger explanation paleontology"
+          dialogue: [
+            "This skull from Hell Creek is honestly built like a natural crushing machine 🦖.",
+            "When we reconstruct the bite mechanics, it produces forces strong enough to break through bone — not just flesh.",
+            "That kind of power strongly suggests active hunting, not just opportunistic feeding."
+          ],
+
+          evidence: [
+            "Skull fossils from Hell Creek Formation (Montana, USA)",
+            "Extremely high bite force estimates from jaw reconstruction",
+            "Healed bite marks found on Triceratops fossils in the same region"
+          ],
+
+          joke:
+            "If humans had that bite force, eating would turn into a full-time responsibility 😂"
+        },
+
+        b: {
+          name: "Dr. Marcus Hale 🔍",
+          role: "Fossil ecologist",
+
+          dialogue: [
+            "I agree the skull is powerful — but fossils don’t tell us *how often* it used that power.",
+            "In ecosystems like Hell Creek, you find predator and prey fossils mixed together all the time. That doesn’t show behavior, just shared environments.",
+            "Even modern predators like lions don’t hunt exclusively — they scavenge whenever it’s easier 🦁."
+          ],
+
+          evidence: [
+            "Modern lions and hyenas regularly scavenge despite being skilled hunters",
+            "Fossil sites like Hell Creek show mixed ecological remains, not direct behavior",
+            "No fossil preserves an actual hunting moment in action"
+          ],
+
+          joke:
+            "Fossils are great storytellers… but terrible eyewitnesses 😄"
         }
       },
 
-      {
-        question: "How fast could Tyrannosaurus rex move?",
+      curator: {
+        name: "Maya 🧐",
 
-        choices: [
-          {
-            text: "It may have been capable of running",
-            challenge:
-              "If it ran at high speed, could such enormous weight risk catastrophic injury?"
-          },
-          {
-            text: "It was probably slower than often imagined",
-            challenge:
-              "If it moved slowly, how would it compete against faster prey animals?"
-          }
+        curiosity: [
+          "So we’re making conclusions from bones alone?",
+          "Could it have switched between hunting and scavenging?",
+          "What kind of fossil would actually prove behavior?"
         ],
 
-        hints: [
-          "Biomechanical models produce conflicting speed estimates.",
-          "Its legs were heavily muscled.",
-          "Footprint evidence remains limited."
-        ],
-
-        mysteries: [
-          "Can movement truly be reconstructed from skeletons alone?",
-          "Did younger individuals behave differently from adults?"
-        ],
-
-        research: {
-          google: "how fast was T rex biomechanical speed estimate",
-          youtube: "T rex running speed debate science explained"
-        }
+        reactions: [
+          "Wait… so both scientists might be right depending on context? 🤯",
+          "This feels like detective work where half the evidence is missing.",
+          "We’re not finding answers — we’re reconstructing possibilities."
+        ]
       }
-    ]
-  },
+    },
 
-  {
-    id: "spinosaurus",
-    name: "Spinosaurus",
-    image: spinoImg,
-    atmosphere:
-      "One of the most unstable dinosaur reconstructions ever created — repeatedly reshaped as evidence disappears, reappears, and changes meaning.",
+    {
+      id: "legs",
+      title: "The Legs",
 
-    questions: [
-      {
-        question: "Was Spinosaurus fully aquatic?",
+      description:
+        "Leg fossils from places like Montana suggest powerful movement, but speed is still debated. Was T. rex a fast sprinter or a heavy ambush walker built for strength?",
 
-        choices: [
-          {
-            text: "It may have spent much of its life in water",
-            challenge:
-              "If Spinosaurus was highly aquatic, why do some studies question how efficiently it could actually swim?"
-          },
-          {
-            text: "It may still have relied heavily on land",
-            challenge:
-              "If it mainly lived on land, why do its dense bones and tail anatomy appear so unusual?"
-          }
-        ],
+      scientists: {
+        a: {
+          name: "Dr. Eleanor Finch 🧠",
+          role: "Biomechanics researcher",
 
-        hints: [
-          "Dense bones may have reduced buoyancy.",
-          "Its tail has been interpreted as useful for propulsion.",
-          "Many fossils were found in river-associated environments."
-        ],
+          dialogue: [
+            "The femur fossils show massive muscle attachment points — especially in specimens from Montana 🦴.",
+            "That usually means explosive movement, like short bursts rather than long-distance running.",
+            "So I don’t see it as slow — I see it as a powerful ambush predator that moves fast when needed."
+          ],
 
-        mysteries: [
-          "How much behavior can anatomy truly reveal?",
-          "Could different life stages have behaved differently?",
-          "How much of Spinosaurus is still missing?"
-        ],
+          evidence: [
+            "Femur fossils showing strong muscle attachment scars",
+            "Computer-based motion simulations suggesting burst speed",
+            "Weight distribution analysis from reconstructed skeletons"
+          ],
 
-        research: {
-          google: "Spinosaurus aquatic dinosaur debate swimming ability",
-          youtube: "Spinosaurus swimming tail controversy science"
+          joke:
+            "Honestly, I also move in short bursts… usually toward snacks 😭"
+        },
+
+        b: {
+          name: "Dr. Marcus Hale 🔍",
+
+          role: "Fossil ecologist",
+
+          dialogue: [
+            "The issue is size 🐘 — at that body mass, fast running creates huge stress on joints.",
+            "Different models don’t even agree on posture yet, which changes all speed calculations.",
+            "So instead of a runner, I see something more like a heavy, controlled ambush walker."
+          ],
+
+          evidence: [
+            "High body mass increases joint stress significantly",
+            "Conflicting biomechanical simulation results",
+            "No confirmed high-speed trackway fossils"
+          ],
+
+          joke:
+            "Gravity has been undefeated since the beginning of time. I’m not betting against it 😄"
         }
       },
 
-      {
-        question: "Why does Spinosaurus keep changing?",
+      curator: {
+        name: "Maya 🧐",
 
-        choices: [
-          {
-            text: "Because new fossils continue changing interpretations",
-            challenge:
-              "If new discoveries improve understanding, why do reconstructions still remain so unstable?"
-          },
-          {
-            text: "Because too much evidence is incomplete",
-            challenge:
-              "If the evidence is so fragmented, how confidently should any reconstruction be presented?"
-          }
+        curiosity: [
+          "Can computers really reconstruct movement accurately?",
+          "Did younger dinosaurs move differently than adults?",
+          "How much of this is calculation vs guesswork?"
         ],
 
-        hints: [
-          "Important fossils were destroyed during World War II.",
-          "Many remains are incomplete.",
-          "Different reconstruction methods produce different outcomes."
-        ],
-
-        mysteries: [
-          "How different would our understanding be if more fossils survived?",
-          "How often is scientific confidence shaped by missing evidence?"
-        ],
-
-        research: {
-          google: "why Spinosaurus reconstruction keeps changing fossils",
-          youtube: "Spinosaurus reconstruction history debate"
-        }
+        reactions: [
+          "So even simulations don’t fully agree… that’s surprising 🤔",
+          "We’re rebuilding movement from math + fossils.",
+          "It feels like reverse engineering a living creature from fragments."
+        ]
       }
-    ]
-  },
+    }
+  ]
+},
 
-  {
-    id: "deinonychus",
-    name: "Deinonychus",
-    image: deinonychusImg,
-    atmosphere:
-      "A dinosaur that transformed scientific imagination while leaving major behavioral questions unresolved.",
+{
+  id: "spinosaurus",
+  name: "Spinosaurus",
+  image: spinoImg,
 
-    questions: [
-      {
-        question: "Did Deinonychus hunt cooperatively?",
+  atmosphere:
+    "Spinosaurus is one of the most debated dinosaurs in science. Most fossils come from North Africa, especially Morocco’s Kem Kem beds, but the remains are incomplete and scattered. Every new discovery changes how scientists imagine its body and lifestyle — like the animal keeps getting reassembled differently over time.",
 
-        choices: [
-          {
-            text: "It may have hunted in groups",
-            challenge:
-              "If these dinosaurs coordinated attacks, why is direct evidence for social behavior so difficult to confirm?"
-          },
-          {
-            text: "The fossil groupings may be misleading",
-            challenge:
-              "If the fossils represent isolated feeding behavior, why are similar patterns repeatedly debated?"
-          }
-        ],
+  exhibits: [
+    {
+      id: "tail",
+      title: "The Tail",
 
-        hints: [
-          "Some fossils were discovered near large prey remains.",
-          "Modern predators show many different social behaviors.",
-          "Fossil proximity does not automatically imply cooperation."
-        ],
+      description:
+        "This tail comes from partial fossils found in Morocco’s Kem Kem Beds. It looks unusually tall and flexible, which sparked a major debate: was Spinosaurus adapted for swimming, or just capable of entering water occasionally?",
 
-        mysteries: [
-          "Can social behavior fossilize?",
-          "How much modern animal behavior should influence reconstructions?"
-        ],
+      scientists: {
+        a: {
+          name: "Dr. Sofia Alvarez 🌊",
+          role: "Paleontologist",
 
-        research: {
-          google: "Deinonychus pack hunting evidence debate",
-          youtube: "Did raptors hunt in packs Deinonychus science"
+          dialogue: [
+            "The tail fossils from Morocco show a structure that behaves almost like a fin in water 🐊.",
+            "When we run hydrodynamic simulations, it creates thrust similar to modern semi-aquatic predators.",
+            "That strongly suggests Spinosaurus spent a large part of its life in rivers and shallow waters."
+          ],
+
+          evidence: [
+            "Tail fossils from Kem Kem Beds (Morocco, North Africa)",
+            "Dense bone structure similar to aquatic-adapted animals",
+            "Fossils found in river and delta sediment deposits"
+          ],
+
+          joke:
+            "This one basically had zero interest in picking a lifestyle 😂"
+        },
+
+        b: {
+          name: "Dr. Marcus Hale 🔍",
+          role: "Fossil ecologist",
+
+          dialogue: [
+            "The tail is fascinating, but we’re still missing key parts of the skeleton.",
+            "Without a complete body, it’s risky to assume a fully aquatic lifestyle.",
+            "It may have been capable of swimming — but that doesn’t mean it depended on it."
+          ],
+
+          evidence: [
+            "Incomplete skeletal record of Spinosaurus",
+            "Conflicting biomechanical swimming simulations",
+            "Missing torso and limb fossil evidence"
+          ],
+
+          joke:
+            "In paleontology, every confident theory waits for the next fossil to challenge it 😅"
         }
       },
 
-      {
-        question: "How closely connected were dinosaurs and birds?",
+      curator: {
+        name: "Maya 🧐",
 
-        choices: [
-          {
-            text: "Birds may simply be living dinosaurs",
-            challenge:
-              "If birds are living dinosaurs, how many ancient behaviors still survive today?"
-          },
-          {
-            text: "The evolutionary picture may still be incomplete",
-            challenge:
-              "If the fossil record is incomplete, how much evolutionary behavior remains invisible?"
-          }
+        curiosity: [
+          "What if we only discovered half the dinosaur?",
+          "Could it survive both in water and on land?",
+          "Why are Spinosaurus fossils so incomplete compared to others?"
         ],
 
-        hints: [
-          "Many theropods share bird-like skeletal features.",
-          "Feather evidence exists in related species.",
-          "Modern birds preserve several theropod characteristics."
-        ],
-
-        mysteries: [
-          "What behaviors existed before flight evolved?",
-          "How much ancient life survives in modern ecosystems?"
-        ],
-
-        research: {
-          google: "dinosaurs evolution into birds evidence fossils",
-          youtube: "how dinosaurs became birds evolution explained"
-        }
+        reactions: [
+          "So our understanding might completely change again? 🤯",
+          "We’re reconstructing a living creature from fragments.",
+          "It feels like solving a puzzle where half the pieces are still buried."
+        ]
       }
-    ]
-  }
+    }
+  ]
+},
+{
+  id: "deinonychus",
+  name: "Deinonychus",
+  image: deinonychusImg,
+
+  atmosphere:
+    "Deinonychus fossils come mainly from places like Montana (USA), especially the Cloverly Formation. Unlike giant dinosaurs, this one changed how scientists think about behavior itself — especially whether predators hunted alone or in groups. But behavior is the hardest thing to prove from fossils, so the debate is still open.",
+
+  exhibits: [
+    {
+      id: "claws",
+      title: "The Claws",
+
+      description:
+        "These curved claws were found in Montana’s Cloverly Formation alongside remains of other dinosaurs. They clearly suggest a fast predator — but whether it hunted in coordinated packs or lived more independently is still debated.",
+
+      scientists: {
+        a: {
+          name: "Dr. Eleanor Finch 🧠",
+          role: "Biomechanics researcher",
+
+          dialogue: [
+            "These claw fossils from the Cloverly Formation are clearly built for gripping and control 🦅.",
+            "When we compare them to modern birds of prey, the mechanics suggest coordinated hunting is at least possible.",
+            "If multiple individuals were moving together, they could have brought down larger prey as a group."
+          ],
+
+          evidence: [
+            "Claw fossils from Cloverly Formation (Montana, USA)",
+            "Curved grip anatomy similar to modern raptors and birds of prey",
+            "Fossil clusters showing multiple individuals found near prey remains"
+          ],
+
+          joke:
+            "Pop culture says ‘dream team’… science says ‘interesting idea, but not confirmed’ 😄"
+        },
+
+        b: {
+          name: "Dr. Marcus Hale 🔍",
+          role: "Fossil ecologist",
+
+          dialogue: [
+            "We have to be careful here — fossils close together don’t automatically mean teamwork.",
+            "In places like Montana, multiple animals can get buried together during floods or environmental events.",
+            "So what looks like group behavior might just be a coincidence preserved in rock."
+          ],
+
+          evidence: [
+            "No direct fossil evidence of coordinated hunting behavior",
+            "Mass burial events common in fossil sites like Cloverly Formation",
+            "Modern predators show flexible, non-fixed social behavior"
+          ],
+
+          joke:
+            "Sadly, fossils don’t preserve group chats or teamwork meetings 😅"
+        }
+      },
+
+      curator: {
+        name: "Maya 🧐",
+
+        curiosity: [
+          "Did they really hunt together or just get buried together?",
+          "How do scientists tell behavior from bones alone?",
+          "Why is behavior the hardest thing to fossilize?"
+        ],
+
+        reactions: [
+          "So we’re not seeing behavior… we’re interpreting it 🤯",
+          "Even a simple fossil can have multiple explanations.",
+          "I want MORE fossils… this is not enough evidence 😭"
+        ]
+      }
+    }
+  ]
+}
+
+
 ]
 
 export default dinosaurs
