@@ -9,17 +9,17 @@ function Home() {
         <h1>Welcome to the Dinosaur Debate Museum</h1>
 
         <p className="subtitle">
-          A place where ancient worlds come alive through curiosity and discovery.
+          A place where ancient worlds are reconstructed from fragments of evidence...
+          where uncertainty is how reality teaches curiosity to think.
         </p>
 
         <p className="description">
-          Dinosaurs are more than fossils — they are stories waiting to be understood.
-          Scientists continue to explore, question, and learn from them every day.
+          Dinosaurs are more than fossils — they are incomplete stories that scientists still try to piece together.
+          And sometimes, those interpretations don’t fully agree.
         </p>
 
         <p className="description">
-          Here, you are invited to explore those questions yourself — to imagine,
-          wonder, and see how science grows through curiosity.
+          Here, you’re invited to look at those disagreements yourself — and see how evidence can lead to more than one explanation.
         </p>
 
         <Link to="/dinosaur">
